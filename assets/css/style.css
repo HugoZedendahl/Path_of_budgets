@@ -1,9 +1,27 @@
 /* the wrapper class is here to make sure there is no overflow on the site*/
-#wrapper 
+#c_wrapper 
     {
         overflow-x: hidden;
         width: 100%;
         position: relative;
         height: 100%;
         min-height: 100vh;
+    }
+/*the four base colour of my pallette*/
+/*the naming convention is c_pallette_"colour"_"area affected"*/
+.c_pallette_red_bg
+    {
+        background-color: #DA0037;
+    }
+.c_pallette_bright_bg
+    {
+        background-color: #EDEDED;
+    }
+.c_pallette_dark_bg
+    {
+        background-color: #171717;
+    }
+.c_pallette_light_bg
+    {
+        background-color: #444444;
     }
