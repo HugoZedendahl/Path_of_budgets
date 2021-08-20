@@ -7,6 +7,11 @@
         height: 100%;
         min-height: 100vh;
     }
+/*  this following rule fixes the size of the logo on the navbar */
+#logo
+    {
+    max-width: 75px!important; 
+    }    
 /* this following rule adjusts the text alignment on the paragraphs and headings right to the logo on the index page for mobile screens */
 @media (max-width:767px)
     {
@@ -19,17 +24,21 @@
 /*the naming convention is c_pallette_"colour"_"area affected"*/
 .c_pallette_red_bg
     {
-        background-color: #DA0037;
+        background-color: #DA0037!important;
     }
 .c_pallette_bright_bg
     {
-        background-color: #EDEDED;
+        background-color: #EDEDED!important;
     }
 .c_pallette_dark_bg
     {
-        background-color: #171717;
+        background-color: #171717!important;
     }
 .c_pallette_light_bg
     {
-        background-color: #444444; 
+        background-color: #444444!important; 
+    }
+.c_pallette_bright_txt
+    {
+        color: #EDEDED!important;
     }
