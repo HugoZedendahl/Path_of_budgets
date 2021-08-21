@@ -1,4 +1,16 @@
-/* the wrapper class is here to make sure there is no overflow on the site*/
+/* this sets the websites defaut background and text colour*/
+body
+    {
+        background-color: #171717;
+        color: #EDEDED;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 100%;
+        min-height: 100vh;
+    }
+/* the wrapper classand html rules are here to make sure there is no overflow on the site*/
 #c_wrapper 
     {
         overflow-x: hidden;
@@ -7,11 +19,36 @@
         height: 100%;
         min-height: 100vh;
     }
+
+html 
+    {
+        position: relative;
+        min-height: 100vh;
+    }
+
 /*  this following rule fixes the size of the logo on the navbar */
 #logo
     {
     max-width: 75px!important; 
-    }    
+    }
+/* this controls the size of the carousel and how overflow is dealt*/
+.carousel-item
+    {
+        overflow: hidden;
+        background-size: cover;
+        min-height: 70vh!important; 
+        max-height: 70vh!important; 
+    } 
+/* this controls the styling of the main header text of the carousel */
+.carousel-header-text 
+    {
+        color: #ffffffa8;
+        margin: 7vh;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 10px;
+        text-shadow: -1px 7px 20px #2b2b2bbf;
+    }
 /* this following rule adjusts the text alignment on the paragraphs and headings right to the logo on the index page for mobile screens */
 @media (max-width:767px)
     {
@@ -19,6 +56,16 @@
             {
                 text-align: justify!important;
             }
+    }
+/*moves the header hyperlinks to rhe right*/
+.c_nav_adjust
+    {
+        margin-left: 75vw!important;
+    }
+/*adjusts text to the right*/
+.c_adjust_position_right
+    {
+        text-align: right!important;
     }
 /*the four base colours of my pallette*/
 /*the naming convention is c_pallette_"colour"_"area affected"*/
@@ -37,6 +84,11 @@
 .c_pallette_light_bg
     {
         background-color: #444444!important; 
+    }
+.c_pallette_red_bor
+    {
+        border-radius: 2px;
+        border-color: #DA0037!important;
     }
 .c_pallette_bright_txt
     {
