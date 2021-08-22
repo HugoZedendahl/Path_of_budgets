@@ -10,7 +10,7 @@ body
         height: 100%;
         min-height: 100vh;
     }
-/* the wrapper classand html rules are here to make sure there is no overflow on the site*/
+/* the wrapper class and html rules are here to make sure there is no overflow on the site*/
 #c_wrapper 
     {
         overflow-x: hidden;
@@ -67,6 +67,12 @@ html
     {
         text-align: right!important;
     }
+/*archive text styling*/
+#archive 
+    {
+        min-height: 100vh;
+        text-size-adjust: 4rem;
+    }
 /*the four base colours of my pallette*/
 /*the naming convention is c_pallette_"colour"_"area affected"*/
 .c_pallette_red_bg
@@ -87,7 +93,8 @@ html
     }
 .c_pallette_red_bor
     {
-        border-radius: 2px;
+        border-radius: 2px!important;
+        border-width: 2px!important;
         border-color: #DA0037!important;
     }
 .c_pallette_bright_txt
