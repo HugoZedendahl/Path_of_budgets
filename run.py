@@ -43,7 +43,22 @@ class base64_functions:
 class database_functions:
 
     def store_item_set(self, item_set, item_set_id):
+        runtime_item_set = {}
+        for item in item_set:
+            runtime_item_set.update = {}
         return()
 
     def fetch_item_set(self, data_set_id):
         return()
+
+
+# sumbission needs to go
+# grab item info -> encode base 64 -> obfuscate -> poeprices api ->
+# obfuscate- > return -> return info will come out after as "number currency"
+# any other return is a error, no information available or a timeout
+# number is a float, currency is either "chaos orb" or "exalted orb"
+# on return of every item needs to be assigned
+# {itemtype:[base64encodedinfo, price info]}
+# all items should be stored in a list together with a uniqe id in the database
+# database should be reset on every in  game leauge start 
+# (approximatly every 3 months)
