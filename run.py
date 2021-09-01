@@ -7,6 +7,8 @@ app = Flask(__name__)
 
 
 @app.route("/")
+def index():
+    return "started"
 
 
 if __name__ == "__main__":
