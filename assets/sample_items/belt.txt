@@ -1,0 +1,21 @@
+Item Class: Belts
+Rarity: Unique
+Bated Breath
+Chain Belt
+--------
+Requirements:
+Level: 36
+--------
+Item Level: 76
+--------
+Discipline has 20% increased Aura Effect (implicit)
+--------
++22 to Intelligence
+10% increased Damage
++24 to maximum Energy Shield
+20% increased maximum Energy Shield
+50% increased Energy Shield Recharge Rate
+--------
+At knifepoint, a moment's hesitation means death.
+--------
+Corrupted

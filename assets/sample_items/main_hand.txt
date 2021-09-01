@@ -1,0 +1,33 @@
+Item Class: Sceptres
+Rarity: Unique
+Nebulis
+Synthesised Void Sceptre
+--------
+Sceptre
+Physical Damage: 50-76
+Critical Strike Chance: 6.20%
+Attacks per Second: 1.25
+Weapon Range: 11
+--------
+Requirements:
+Level: 70
+Str: 116
+Int: 122
+--------
+Sockets: R-R-W 
+--------
+Item Level: 85
+--------
++20 to Intelligence (implicit)
+25% increased Cold Damage (implicit)
+--------
+15% increased Cast Speed
+20% increased Cold Damage per 1% Cold Resistance above 75%
+20% increased Lightning Damage per 1% Lightning Resistance above 75%
+--------
+The vastness of the cosmos holds energies beyond comprehension,
+should one have the fortitude to grasp them.
+--------
+Corrupted
+--------
+Synthesised Item

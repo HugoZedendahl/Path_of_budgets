@@ -1,0 +1,25 @@
+Item Class: Rings
+Rarity: Unique
+Call of the Brotherhood
+Two-Stone Ring
+--------
+Quality (Elemental Damage Modifiers): +20% (augmented)
+--------
+Requirements:
+Level: 20
+--------
+Item Level: 81
+--------
++12% to Cold and Lightning Resistances (implicit)
+--------
++22 to Intelligence
+22% increased Lightning Damage
+31% increased Mana Regeneration Rate
+48% of Lightning Damage Converted to Cold Damage
+Your spells have 100% chance to Shock against Frozen Enemies
+--------
+Forged by three brothers
+so that they may recognize each other
+across any distance of time or travel.
+--------
+Corrupted

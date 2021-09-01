@@ -1,0 +1,31 @@
+Item Class: Shields
+Rarity: Unique
+Prism Guardian
+Archon Kite Shield
+--------
+Quality: +20% (augmented)
+Chance to Block: 22%
+Armour: 187 (augmented)
+Energy Shield: 36 (augmented)
+--------
+Requirements:
+Level: 70
+Str: 85
+Dex: 98
+Int: 151
+--------
+Sockets: G-B-W 
+--------
+Item Level: 78
+--------
++12% to all Elemental Resistances (implicit)
+--------
++2 to Level of Socketed Aura Gems
+Socketed Gems Cost and Reserve Life instead of Mana
+Socketed Gems have 25% reduced Reservation
++23 to Dexterity
++25% to all Elemental Resistances
+--------
+When blood is paid, the weak think twice.
+--------
+Corrupted

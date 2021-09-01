@@ -1,0 +1,22 @@
+Item Class: Amulets
+Rarity: Rare
+Victory Collar
+Lapis Amulet
+--------
+Requirements:
+Level: 61
+--------
+Item Level: 81
+--------
+Allocates Champion of the Cause (enchant)
+--------
++29 to Intelligence (implicit)
+--------
++45 to Dexterity
+20% increased Evasion Rating
++41 to maximum Mana
++14% to all Elemental Resistances
+5% reduced Reservation of Skills
+19% increased maximum Energy Shield (crafted)
+--------
+Redeemer Item

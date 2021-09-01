@@ -1,0 +1,25 @@
+Item Class: Boots
+Rarity: Rare
+Sorrow Hoof
+Sorcerer Boots
+--------
+Quality: +20% (augmented)
+Energy Shield: 254 (augmented)
+--------
+Requirements:
+Level: 70
+Str: 41
+Int: 155
+--------
+Sockets: R-R-B-B 
+--------
+Item Level: 86
+--------
+10% chance to Freeze, Shock and Ignite if you haven't Crit Recently (enchant)
+--------
+32% reduced Attribute Requirements
++48 to maximum Energy Shield
+142% increased Energy Shield
+Regenerate 38.9 Life per second
+14% increased Rarity of Items found
+17% increased Stun and Block Recovery

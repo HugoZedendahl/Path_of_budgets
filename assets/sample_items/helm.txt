@@ -1,0 +1,30 @@
+Item Class: Helmets
+Rarity: Unique
+Alpha's Howl
+Sinner Tricorne
+--------
+Quality: +20% (augmented)
+Evasion Rating: 793 (augmented)
+--------
+Requirements:
+Level: 72
+Str: 95
+Dex: 138
+Int: 159
+--------
+Sockets: B B G-R 
+--------
+Item Level: 78
+--------
+Purity of Elements has 20% reduced Reservation (enchant)
+--------
++2 to Level of Socketed Aura Gems
+95% increased Evasion Rating
++30% to Cold Resistance
+25% chance to Avoid being Chilled
+Cannot be Frozen
+8% reduced Reservation of Skills
+--------
+Nature respects the strong
+And paints the snow red
+With the blood of the weak

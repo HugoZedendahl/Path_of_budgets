@@ -1,0 +1,21 @@
+Item Class: Gloves
+Rarity: Rare
+Carrion Grip
+Sorcerer Gloves
+--------
+Quality: +20% (augmented)
+Energy Shield: 138 (augmented)
+--------
+Requirements:
+Level: 69
+Int: 97
+--------
+Sockets: G B-B G 
+--------
+Item Level: 83
+--------
++27 to maximum Energy Shield
+66% increased Energy Shield
+17% increased Rarity of Items found
++20% to Cold and Chaos Resistances
++20% to Cold and Lightning Resistances (crafted)
