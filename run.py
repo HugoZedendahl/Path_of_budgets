@@ -45,5 +45,5 @@ def fetch_item_set(self, data_set_id):
 # on return of every item needs to be assigned
 # {itemtype:[base64encodedinfo, price info]}
 # all items should be stored in a list together with a uniqe id in the database
-# database should be reset on every in  game leauge 
+# database should be reset on every in  game leauge
 # (approximatly every 3 months)
