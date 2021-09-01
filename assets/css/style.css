@@ -42,7 +42,7 @@ html
 /* this controls the styling of the main header text of the carousel */
 .carousel-header-text 
     {
-        color: #ffffffa8;
+        color: #EDEDED;
         margin: 7vh;
         text-transform: uppercase;
         font-weight: bold;
@@ -100,4 +100,9 @@ html
 .c_pallette_bright_txt
     {
         color: #EDEDED!important;
+    }
+textarea
+    {
+        background-color: #444444!important;
+        color: #EDEDED;
     }
