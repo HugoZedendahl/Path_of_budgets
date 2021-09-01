@@ -28,8 +28,8 @@ def encode_item_info(self, item_info):
 
 def store_item_set(self, item_set, item_set_id):
     runtime_item_set = {}
-    for item in item_set:
-        runtime_item_set.update = {}
+    for item in range(item_set):
+        runtime_item_set.update(item)
     return()
 
 

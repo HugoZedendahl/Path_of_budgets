@@ -104,5 +104,13 @@ html
 textarea
     {
         background-color: #444444!important;
-        color: #EDEDED;
+        color: #EDEDED!important;
+    }
+button
+    {
+        background-color: #444444!important;
+        color: #EDEDED!important;
+        border-radius: 2px!important;
+        border-width: 2px!important;
+        border-color: #DA0037!important;
     }
