@@ -1,7 +1,13 @@
 import os
 import base64
-from flask import Flask, render_template, Response, request, redirect, url_for
+import urllib.request
+import json
+from pymongo import MongoClient
+from flask import Flask
 
+mongo_url = open("assets/mongo.txt")
+client = pymongo.MongoClient(mongo_url)
+db = client.test
 
 app = Flask(__name__)
 
@@ -10,12 +16,15 @@ app = Flask(__name__)
 def index():
     return "started"
 
+
 @app.route('/edit_build.html')
 def edit_build():
     return "edit"
 
+
 @app.route("/build_selector.html")
 def select_build():
+    return "started"
 
 
 if __name__ == "__main__":
@@ -25,23 +34,17 @@ if __name__ == "__main__":
         debug=True)
 
 
-def encode_item_info(self, item_info):
-    if (isinstance(item_info, str)):
+def encode_item_info(item_info, item_id, build_id):
+    if (isinstance(item_info, item_id, build_id, str)):
         base64_item_output = base64.b64encode(item_info)
-        return base64_item_output
+        https_get_url = "https://www.poeprices.info/api?l=Expedition&i="
+        https_get_call = https_get_url + base64_item_output
+        response = urllib.request.urlopen(https_get_call)
+        price = json.load(response)
+        db.builds.update_one({'_id': build_id}, {item_id: {item_info: price}})
+        return
     else:
         return("Invalid data")
-
-
-def store_item_set(self, item_set, item_set_id):
-    runtime_item_set = {}
-    for item in range(item_set):
-        runtime_item_set.update(item)
-    return()
-
-
-def fetch_item_set(self, data_set_id):
-    return()
 
 
 # sumbission needs to go
