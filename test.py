@@ -29,4 +29,4 @@ for item in runtime_item_set:
     price = json.load(response)
     run_dict.update({item: price})
 db.builds.pob_data.update_one({"_id": "aura_stacccc"}, {"$set": run_dict})
-print("jesus please work")
+print("it worked")
