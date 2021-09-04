@@ -111,5 +111,5 @@ function fetchBuild()
                 document.getElementById("insert_wrapper").innerHTML = template
                 document.getElementById("wrap_select").id = ".edit_items"
                 return
-        /*fetches builds*/
+                /*fetches builds*/
     };
