@@ -1,1 +1,1 @@
-mongodb+srv://superadmin:x31123123@build-and-price-data.u1gfi.mongodb.net/builddata?retryWrites=true&w=majority
+mongodb+srv://exile:cxzdsaewq321@build-and-price-data.u1gfi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
