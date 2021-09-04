@@ -59,9 +59,9 @@ def delete_build(build_id):
 # grab item info and build id -> encode base 64 -> poeprices api ->
 # store in db item info + price + build id
 # any other return is a error, no information available or a timeout
-# 
 # database should be reset on every in  game leauge
 # (approximatly every 3 months)
 # this needs to be done manually
 # "hambogbbrr" is the abbreviation for the item order
-# helm amulet mainhand body offhand ring1 belt ring2
+# helm amulet mainhand body offhand gloves
+# boots belt ring1 ring2
